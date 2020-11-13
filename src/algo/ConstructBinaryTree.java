@@ -138,7 +138,7 @@ public class ConstructBinaryTree {
     * */
     Map<Integer, Integer> map = new HashMap<>();
 
-    TreeNode buildTree(int[] inOrder, int[] postOrder) {
+    public TreeNode buildTree(int[] inOrder, int[] postOrder) {
         if (postOrder == null || postOrder.length == 0) {
             return null;
         }
