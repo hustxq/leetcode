@@ -1,6 +1,6 @@
 package leetcode.array;
 
-public class WiggleMaxLength {
+public class WiggleMaxLength376 {
 
     public int wiggleMaxLength(int[] nums) {
         int n = nums.length;
