@@ -2,7 +2,7 @@ package leetcode.array;
 
 public class CountPrimes204 {
     public static void main(String[] args) {
-        System.out.println(countPrimes2(5000000));
+        System.out.println(countPrimes2(100));
     }
 
     static public int countPrimes2(int n) {
